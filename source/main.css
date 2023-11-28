@@ -34,10 +34,41 @@
   }
 
   .circle{
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     background-color: #3498db;
     border-radius: 50%;
     position: absolute;
-    margin-top: 0px;
+    margin-top: 13vh;
+    margin-left: 95vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .circleBackground{
+    width: 140px;
+    height: 140px;
+    background-color: #283747;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .head{
+    width: 50px;
+    height: 50px;
+    background-color: blueviolet;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .headBackground{
+    width: 40px;
+    height: 40px;
+    background-color: #283747;
+    border-radius: 50%;
   }
