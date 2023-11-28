@@ -1,0 +1,43 @@
+.background{
+    background-color: #283747;
+    height: 100vh;
+}
+
+.center {
+    background-color: #283747;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .border {
+    width: 960px;
+    height: 540px;
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+   
+  }
+
+  .fakeFoundation {
+    width: 950px;
+    height: 530px;
+    background-color: #283747;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  .circle{
+    width: 100px;
+    height: 100px;
+    background-color: #3498db;
+    border-radius: 50%;
+    position: absolute;
+    margin-top: 0px;
+  }
