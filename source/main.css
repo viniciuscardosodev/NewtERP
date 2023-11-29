@@ -72,3 +72,11 @@
     background-color: #283747;
     border-radius: 50%;
   }
+
+  .PersonBody{
+    width: 40px;
+    height: 40px;
+    background-color: #283747;
+    border-radius: 80%;
+    position: relative;
+  }
