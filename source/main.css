@@ -1,10 +1,23 @@
-.background{
-    background-color: #283747;
-    height: 100vh;
+@charset "UTF-8";
+
+* {
+  font-family: 'Courier New', Courier, monospace;
+  height: 100%;
 }
 
-.center {
-    background-color: #283747;
+.background{
+    background-color: #EEF8FF;
+    height: 100%;
+    background-attachment: fixed;
+}
+
+main {
+  margin: auto;
+}
+
+
+/* .center {
+    background-color: #EEF8FF;
     margin: 0;
     display: flex;
     justify-content: center;
@@ -26,7 +39,7 @@
   .fakeFoundation {
     width: 950px;
     height: 530px;
-    background-color: #283747;
+    background-color: #EEF8FF;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -49,7 +62,7 @@
   .circleBackground{
     width: 140px;
     height: 140px;
-    background-color: #283747;
+    background-color: #EEF8FF;
     border-radius: 50%;
     display: flex;
     justify-content: center;
@@ -69,7 +82,7 @@
   .headBackground{
     width: 40px;
     height: 40px;
-    background-color: #283747;
+    background-color: #EEF8FF;
     border-radius: 50%;
   }
 
@@ -82,4 +95,4 @@
     position: absolute;
     margin-left: 0vh;
     margin-top: 10.5vh;
-  }
+  } */
