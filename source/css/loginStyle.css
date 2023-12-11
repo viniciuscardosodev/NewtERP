@@ -111,3 +111,21 @@
   cursor: pointer;
 }
 
+#user {
+  display: flex;
+  position: absolute;
+  padding-left: 92%;
+  padding-top: 0;
+  top: 10px;
+  pointer-events: none;
+}
+
+#password {
+  display: flex;
+  position: absolute;
+  padding-left: 92%;
+  padding-top: 0;
+  top: 10px;
+  pointer-events: none;
+}
+
