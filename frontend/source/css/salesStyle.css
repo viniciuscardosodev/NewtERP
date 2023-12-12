@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+* {
+  font-family: 'Courier New', Courier, monospace;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+:root {
+  --color1: #EEF8FF;
+  --color2: #D1F5FF;
+  --color3: #78E3FD;
+  --color4: #6ccee7;
+  --color5: #5343FF;
+}
+
+.background{
+    background-color: #EEF8FF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100%;
+}
