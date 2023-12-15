@@ -17,28 +17,33 @@
 
 .background{
     background-color: #EEF8FF;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     min-height: 100%;
 }
 
 .headBar{
   border-bottom: #5343FF 1px solid;
   height: 130px;
+  width: 100%;
   box-shadow: 1px 1px 5px rgba(0, 0, 0, .5);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  background-color: none;
+  justify-content: space-around;
+  justify-items: center;
+  align-items: center;
+  margin: 0;
+
 }
 
 .navegation {
-  position: relative;
-  display: table-column;
-  justify-content: center;
-  align-items: center;
-  top: 80%;
-  left: 30vw;
-  padding: 0;
+  display: block;
+  flex-wrap: nowrap;
+  background-color: none;
   display: flex;
   width: fit-content;
+  height: 100%;
+  align-items: end;
 }
 
 .btn {
@@ -55,26 +60,18 @@
   color: #6ccee7;
 }
 
-.companyImg {
-  position: absolute;
-  display: table-column;
-  align-items: flex-end;
-  justify-content: flex-end;
-  left: 0;
-  top: 30px;
-  margin-left: 30px;
-  
+.meArea{
+  display: flex;
+  background-color: blue;
+  align-items: center;
 }
 
-.userImg {
-  position: absolute;
-  display: table-column;
-  align-items: flex-end;
-  justify-content: flex-end;
-  right: 0;
-  top: 30px;
-  margin-right: 30px;
-  margin-top: 30px;
+.meArea > h1{
+  font-size: 20px;
+}
+
+.meArea > img {
+  height: 100px;
 }
 
 .mainContent{
