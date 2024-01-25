@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" th:href="@{/css/loginStyle.css}">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script th:src="@{/js/index.js}"></script>
+    <title>Newt ERP</title>
+    <link rel="icon" type="image/x-icon" th:href="@{/images/favicon.ico}">
+</head>
+<body class="background">
+   
+    <form action="" class="formBox">
+        <h1>Login</h1>
+        <div class="box-user">
+            <i class='bx bx-user' id="user"></i>
+            <input type="text" name="" required autocomplete="email">
+            <label>Usuário</label>
+            
+        </div>
+        <div class="box-user">
+            <i class='bx bxs-key' id="password"></i>
+            <input type="password" name="" required autocomplete="current-password">
+            <label>Senha</label>
+        </div>
+        <div>
+            <button class="btn">Entrar</button>
+        </div>
+        <div class="btn2">
+            <a href="#" class="forget">Esqueci a senha.</a>
+            <input type="checkbox" id="save" name="save" value="true">
+            <label for="save"> Lembrar-me</label>
+        </div>    
+    </form>
+
+</body>
+</html>

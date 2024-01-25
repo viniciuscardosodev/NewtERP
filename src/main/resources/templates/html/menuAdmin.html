@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" th:href="@{/css/admMenuStyle.css}">
+    <script th:src="@{/js/menuAdmin.js}"></script>
+    <title>Home</title>
+    <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
+</head>
+<body class="background">
+
+
+    <header class="headBar">
+        <div class="companyImg">
+            <img src="../images/logoExemple.png" alt="Company Logo" class="companyImg" id="person">
+        </div>
+        
+        <div class="navegation">
+            <nav>
+                <button class="btn">Clientes</button>
+                <button class="btn">Fornecedores</button>
+                <button class="btn">Funcionários</button>
+                <button class="btn">Produtos</button>
+            </nav>
+        </div>
+        <div class="meArea">
+            <div>
+              <h1>Bem-vindo(a), {name}</h1>
+            </div>
+            <div><a href="index.html">Trocar usuário</a></div>
+            <div><img src="../images/logoExemple.png" alt="UserPhoto"></div>
+        </div>
+    </header>
+    
+      <main class="mainContent">
+          <div class="content" id="1">
+              <h1>Tabela Clientes</h1>
+              <table border="1" class="table">
+                  <thead>
+                    <tr>
+                      <th>Nome</th>
+                      <th>CPF</th>
+                      <th>Telefone</th>
+                      <th>Endereço</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>Nome 1</td>
+                      <td>123.456.789-00</td>
+                      <td>(123) 456-7890</td>
+                      <td>Rua Exemplo, 123</td>
+                    </tr>
+                    <tr>
+                      <td>Nome 2</td>
+                      <td>987.654.321-00</td>
+                      <td>(987) 654-3210</td>
+                      <td>Avenida Teste, 456</td>
+                    </tr>
+                    Adicione mais linhas conforme necessário
+                    </tbody>
+                </table>
+          </div>
+          <div class="content" id="2"></div>
+          <div class="content" id="3"></div>
+          <div class="content" id="4"></div>
+      </main>
+
+</body>
+</html>
