@@ -1,13 +1,11 @@
 package com.newt.models;
 
-import java.util.UUID;
-
-import org.hibernate.mapping.Table.ForeignKeyKey;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
 import jakarta.persistence.JoinColumn;
+import jakarta.persistence.ManyToOne;
 import jakarta.persistence.OneToOne;
 import jakarta.persistence.Table;
 
@@ -17,7 +15,7 @@ public class Employee {
 
     @Id
     @OneToOne
-    @JoinColumn(name = "user_id")
+    @JoinColumn(name = "fk_user_id")
     private User user;
 
     @Column(name = "name", nullable = false, length = 150, updatable = true)
@@ -25,7 +23,10 @@ public class Employee {
 
     @Column(name = "salary", nullable = false, updatable = true)
     private Double salary;
-   
+    
+    @ManyToOne()
+    @JoinColumn(name = "fk_company_id")
+    private Company empresa;
 
     public Employee() {
     }

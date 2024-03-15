@@ -3,6 +3,8 @@ package com.newt.models;
 import java.util.Objects;
 import java.util.UUID;
 
+import org.hibernate.annotations.GenericGenerator;
+
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonProperty.Access;
 
@@ -24,6 +26,7 @@ public class User {
     public interface CreateUser{}
     public interface UpdateUser{}
     
+
     @Id
     @GeneratedValue(strategy = GenerationType.UUID)
     @Column(name = "id", unique = true, updatable = false, nullable = false) 
